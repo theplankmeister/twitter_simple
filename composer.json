@@ -1,0 +1,8 @@
+{
+    "name": "theplankmeister/twitter_simple",
+    "description": "Console Twitter thing",
+    "type": "project",
+    "require": {
+        "nesbot/carbon": "^2.18"
+    }
+}

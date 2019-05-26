@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  php:
+    build: ./docker/php
+    container_name: "${CONTAINER_NAME_PREFIX}_php"
+    volumes:
+      - .:/var/www/html:cached
